@@ -1,0 +1,17 @@
+.About {
+    color: rgb(222, 189, 100);
+
+    display: flex;
+    flex-shrink: 0;
+    overflow: hidden;
+    
+
+    min-width: 100%;
+    max-height: 30%;
+    background-color: rgb(129, 184, 214);
+
+}
+
+.About p {
+    margin: 30px;
+}
