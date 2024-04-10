@@ -1,0 +1,28 @@
+.Navigation {
+    color: rgb(222, 189, 100);
+    font-weight: 550;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 0px 30px;
+
+}
+
+.myName {
+    justify-content: left;
+}
+
+.navLinks {
+    flex-grow: 1;
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+
+}
+
+.navLinks p {
+    padding-left: 3rem;
+
+}

@@ -1,12 +1,13 @@
 import './App.css';
-import Header from './Header';
-import Typewriter from './Typewriter';
+import Hero from './Hero/Hero';
+import Footer from './Footer/Footer';
+// import Typewriter from './Hero/Typewriter';
 
 function App() {
   return (
     <div className="App">
-      <h1>hi i'm victoria</h1>
-      <Typewriter />
+      <Hero/>
+      <Footer />
     </div>
   );
 }
