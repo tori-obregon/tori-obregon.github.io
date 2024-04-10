@@ -1,0 +1,13 @@
+.ProjectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    flex-shrink: 0;
+    overflow: hidden;
+
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('/src/assets/img/cactus.jpg');
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
