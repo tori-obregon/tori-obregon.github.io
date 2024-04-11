@@ -1,12 +1,11 @@
 import React from 'react';
 import './ProjectContainer.css';
-import {Project} from './Project';
+import {ProjectCard} from './Project';
 
 function ProjectContainer() {
     return (
       <div className="ProjectContainer">
-        Under Construction
-        <Project/>
+        <ProjectCard/>
       </div>
     );
   }
