@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Hero from './Hero/Hero';
 import About from './About/About';
 import ProjectContainer from './ProjectCards/ProjectContainer';

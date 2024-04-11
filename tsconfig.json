@@ -3,11 +3,10 @@
     "target": "es2016",
     "jsx": "react",                                
     "module": "commonjs",                               
-    "baseUrl": ".",                                 
+    "baseUrl": ".",
     "paths": {
-      "@/components/ui/*": ["./src/components/ui/*"],
       "@/*": ["./src/*"],
-    },                             
+    },                            
     "allowImportingTsExtensions": true,              
     "noEmit": true,                                   
     "esModuleInterop": true,                             
