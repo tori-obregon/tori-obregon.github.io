@@ -1,11 +1,5 @@
 .App {
   text-align: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(203, 73, 4);
   height: 100vh ;
-}
-
-
-.App-link {
-  color: #61dafb;
 }

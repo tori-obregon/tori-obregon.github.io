@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Hero from './Hero/Hero';
 import About from './About/About';
@@ -7,7 +8,7 @@ import Footer from './Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className=" App">
       <Hero/>
       <About/>
       <ProjectContainer/>
