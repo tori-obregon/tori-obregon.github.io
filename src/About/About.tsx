@@ -1,9 +1,10 @@
+import React from "react";
 
 function About() {
     return (
-      <div className="About">
+      <div className="m-8">
         <p>
-        This is an intro about me, and how I  love to be a software engineer. I have a good foundation when it  comes to languages and frameworks and libraries. I want to work on cool projects with cool people
+        I'm Victoria, a software engineer who loves to make cool things with cool people. I'm a data-centric and testing oriented dev, and take pride in making sure my projects are organized and efficient. 
         </p>
       </div>
     );
