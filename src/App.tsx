@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Hero from './Hero/Hero';
 import About from './About/About';
 import ProjectContainer from './ProjectCards/ProjectContainer';
@@ -8,7 +7,7 @@ import Footer from './Footer/Footer';
 
 function App() {
   return (
-    <div className=" App">
+    <div>
       <Hero/>
       <About/>
       <ProjectContainer/>

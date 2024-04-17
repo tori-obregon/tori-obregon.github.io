@@ -1,5 +1,4 @@
 import React from 'react';
-import './ProjectContainer.css';
 import {ProjectCard} from './Project';
 
 function ProjectContainer() {
