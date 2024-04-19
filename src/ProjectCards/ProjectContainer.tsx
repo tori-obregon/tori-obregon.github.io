@@ -1,12 +1,14 @@
 import React from 'react';
 import {ProjectCard} from './Project';
-import cactusImage from '../assets/img/cactus_nobackground.png';
+import plantImage from '../assets/img/plant.png';
 
 function ProjectContainer() {
     return (
-      <div className="h-dvh bg-yellow" >
+      <div className="flex h-[10%] bg-yellow" >
         <ProjectCard/>
-        <img alt='cactus' src={cactusImage} width="100%" height="100%"/>
+        <div className='flex flex-col-reverse items-end w-full'>
+        <img alt='plant' src={plantImage} style={{width: '25rem'}}/>
+        </div>
       </div>
     );
   }
